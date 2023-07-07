@@ -1,0 +1,165 @@
+.dark {
+  --main-light-btn-color:#FF94C7;
+  --main-light-text-color:white;
+  --main-bg-color:#000;
+  --main-item-bg-color:#211F25;
+}
+
+
+.dark .hero {
+  background-image: url("../images/logoipsum-dekstop-dark.png");
+  background-position: top, center;
+  background-repeat: no-repeat;
+
+}
+
+.dark .theme-btn {
+  background-image: url("../images/icons/light-btn-icon.svg");
+}
+
+.dark .main {
+  background-color: var(--main-bg-color);
+}
+
+.hero {
+  background-image: url("../images/logoipsum-dekstop-light.png");
+  background-repeat: no-repeat;
+  background-position: top, center;
+  margin-bottom: 203px;
+}
+
+.header-wrapper{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 157px;
+}
+
+.site-logo {
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 40px;
+}
+
+.first-link{
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-style: normal;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+.theme-btn {
+  width: 42px;
+  height: 42px;
+  background-image: url("../images/icons/dark-btn-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+}
+
+.hero-wrap {
+  width: 737px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  color: #fff;
+  padding-bottom: 24px;
+  margin: 0;
+}
+
+.hero-desc__wrap{
+  width: 471px;
+  margin: 0 auto;
+}
+
+.hero-desc {
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+
+.hero-getstart-btn {
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--main-bg-color);
+  text-decoration: none;
+  padding: 16px 28px;
+  border-radius: 32px;
+  background-color: var(--main-light-btn-color);
+  margin-right: 33px;
+  border: 1px solid transparent;
+}
+
+.hero-getstart-btn:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: var(--main-light-text-color);
+}
+
+.hero-watchvideo-btn {
+  position: relative;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  padding: 16px 44px 16px 18px;
+  border-radius: 32px;
+  border: 1px solid #fff;
+}
+
+.hero-watchvideo-btn::before {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 117px;
+  top: 9px;
+  background-image: url("../images/icons/video-icon.svg");
+  content: "";
+}
+
+.hero-watchvideo-btn:hover {
+  background-color: var(--main-light-btn-color);
+  border: 1px solid var(--main-light-btn-color);
+  color: var(--main-bg-color);
+}
+
+.hero-image{
+  padding-top: 100px;
+  margin: 0 auto;
+}

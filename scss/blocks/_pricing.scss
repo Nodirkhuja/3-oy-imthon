@@ -1,0 +1,116 @@
+.pricing {
+  margin-bottom: 100px;
+}
+
+.pricing-desc-wrap {
+  text-align: center;
+}
+
+.pricing-title {
+  color: var(--main-light-text-color);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.pricing-desc {
+  color: var(--main-light-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 80px;
+}
+
+.pricing-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pricing-item {
+  width: 405px;
+  padding: 31px;
+  border-radius: 8px;
+  border: 0.976px solid transparent;
+}
+
+.pricing-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.pricing-item:hover {
+  border-radius: 8px;
+  border: 0.976px solid #FF007A;
+}
+
+.pricing-item:hover .price-link {
+  background-color: #FF007A;
+  color: #fff;
+}
+
+.price-wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 39px;
+}
+.price-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: var("--main-light-text-color");
+}
+.price-value {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  color: var("--main-light-text-color");
+  
+}
+.price-option {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: var("--main-light-text-color");
+  
+}
+.content-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 39px;
+  padding-bottom: 23px;
+}
+.content-item {
+  position: relative;
+  color: var(--main-light-text-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.content-item::before{
+  position: absolute;
+  left: -39px;
+  width: 23px;
+  height: 23px;
+  background-image: url("/images/icons/checkicon.svg");
+  content: "";
+}
+
+.price-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #FF007A;
+  font-size: 15.61px;
+  font-style: normal;
+  font-weight: 400;
+  width: 342px;
+  padding: 16px 28px;
+  border-radius: 32px;
+  border: 1px solid #FF007A;
+}
